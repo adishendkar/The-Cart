@@ -1,0 +1,39 @@
+/* body{
+    font-family: 'Courier New', Courier, monospace;
+} */
+.container {
+    display: flex;
+    width: 80%;
+    margin-left: 180px;
+    height: 500px;
+
+    justify-content: space-evenly;
+}
+  
+.left-box,
+.right-box {
+    width: 40%;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: 400;
+    
+    
+
+}
+  
+.left-box {
+    border-right: 1px solid #ccc;
+    background-color: #ccc;
+    
+}
+.right-box{
+    margin-left: 20px;
+    background-color: rgb(157, 186, 211);
+} 
+.product {
+    margin-bottom: 10px;
+}
+  
+.cart-item {
+    margin-bottom: 10px;
+}
